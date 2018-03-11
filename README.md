@@ -1,6 +1,5 @@
 # auto-reminder
-##### 闲来无事自己写的b站直播提醒器自动发邮件，配合ifttt食用更佳
-##### Update1:挂在腾讯服务器上，用sreeen后台跑脚本永不停机
-![image](http://ww4.sinaimg.cn/large/0060lm7Tly1fl783wokmxj311r0okq54.jpg)
-##### Update2：某村2a.m直播
-![image](http://ww4.sinaimg.cn/large/0060lm7Tly1fl783weg53j312209r3yv.jpg)
+##### 闲来无事写的b站直播提醒器, 可以自动发邮件，配合ifttt使用
+原理仅仅是get了直播间的信息, 用bs4提取标签,
+其实后来听同学说B站开放了此API, 调用方法: http://live.bilibili.com/bili/isliving/${mid}
+
